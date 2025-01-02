@@ -15,7 +15,7 @@ ToDo List Django
                         style="..."
                         action="{% url 'todo-list:toggle-item' pk=todo.pk %}"
                 >
-                    {{ csrf_token }}
+                    {% csrf_token %}
                     <input type="submit" value="▶️">
                 </form>
                 {{ todo.text }}

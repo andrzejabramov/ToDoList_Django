@@ -13,11 +13,11 @@ class TodoItemCreateView(CreateView):
     fields = [
         "text",
     ]
-    success_url = reverse_lazy("todo-list: items-list")
+    success_url = reverse_lazy("todo-list:items-list")
 
 class ToDoItemDeleteView(DeleteView):
     model = TodoItem
-    success_url = reverse_lazy("todo-list: items-list")
+    success_url = reverse_lazy("todo-list:items-list")
 
 class ToDoItemToggleView(View):
     def post(self, request: HttpRequest, pk: int) -> HttpResponse:
