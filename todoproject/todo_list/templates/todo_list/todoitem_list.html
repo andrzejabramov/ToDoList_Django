@@ -12,8 +12,9 @@ ToDo List Django
         {% for todo in object_list %}
             <li>
                 <form
-                        style="..."
+                        style="display:inline;"
                         action="{% url 'todo-list:toggle-item' pk=todo.pk %}"
+                        method = "post"
                 >
                     {% csrf_token %}
                     <input type="submit" value="▶️">
