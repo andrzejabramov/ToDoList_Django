@@ -15,7 +15,7 @@ https://www.djangoproject.com/
 ```commandline
 python3 -m startproject todoproject
 ```
-2. Переходим в папку проектаЖ
+2. Переходим в папку проекта:
 ```commandline
 cd todoproject
 ```
@@ -23,3 +23,4 @@ cd todoproject
 ```commandline
 python3 manage.py startapp todo_list
 ```
+
