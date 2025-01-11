@@ -28,4 +28,4 @@ python3 manage.py startapp todo_list
 5. В файле urls.py приложения зададим переменной имя, которое будет использоваться в шаблоне и свяжем адреса страниц с функциями:
 ![app_url](https://github.com/andrzejabramov/ToDoList_Django/blob/master/screens/app_url.png)
 6. В корневом файле (проекта) urls.py сошлемся на файл urls.py приложения:
-![project](https://github.com/andrzejabramov/ToDoList_Django/blob/master/screens/project_urls.png_url)
+![project](https://github.com/andrzejabramov/ToDoList_Django/blob/master/screens/project_urls.png)
