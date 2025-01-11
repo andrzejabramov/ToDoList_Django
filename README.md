@@ -149,3 +149,9 @@ Confirm delete Todo {{ object.id }}
 ```commandline
 python3 manage.py runserver
 ```
+![runserver](https://github.com/andrzejabramov/ToDoList_Django/blob/master/screens/runserver.png)
+веб страница:
+![page](https://github.com/andrzejabramov/ToDoList_Django/blob/master/screens/page.png)
+В базе данных:
+![res_bd](https://github.com/andrzejabramov/ToDoList_Django/blob/master/screens/res_bd.png)
+
