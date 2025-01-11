@@ -39,7 +39,9 @@ python3 makemigrations
 ![makemigrations](https://github.com/andrzejabramov/ToDoList_Django/blob/master/screens/migrations.png)
 9. Визуально проверяем миграцию:
 ![migrations_control](https://github.com/andrzejabramov/ToDoList_Django/blob/master/screens/migrations_control.png)
-10. Запустим сервер и посмотрим, что получилось :
+10. Проверяем БД:
+![sqlite3](https://github.com/andrzejabramov/ToDoList_Django/blob/master/screens/sqlite3.png)
+11. Запустим сервер и посмотрим, что получилось :
 ```commandline
 python3 manage.py runserver
 ```
