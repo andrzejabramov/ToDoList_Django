@@ -23,5 +23,7 @@ cd todoproject
 ```commandline
 python3 manage.py startapp todo_list
 ```
-4. Добавляем наименование приложения в список Install_app файла settings.py:
+4. Добавляем наименование приложения в список INSTALLED_APPS файла settings.py:
 ![install_app](https://github.com/andrzejabramov/ToDoList_Django/blob/master/screens/install_app.png)
+5. В файле urls.py приложения зададим переменной имя, которое будет использоваться в шаблоне и свяжем адреса страниц с функциями:
+![app_url](https://github.com/andrzejabramov/ToDoList_Django/blob/master/screens/app_url.png)
