@@ -41,7 +41,9 @@ python3 makemigrations
 ![migrations_control](https://github.com/andrzejabramov/ToDoList_Django/blob/master/screens/migrations_control.png)
 10. Проверяем БД:
 ![sqlite3](https://github.com/andrzejabramov/ToDoList_Django/blob/master/screens/sqlite3.png)
-11. Запустим сервер и посмотрим, что получилось :
+11. Создадим в файле views.py классы для отображения списка заданий, добавления, удаления и изменения статуса (выполнено/не выполнено):
+![views](https://github.com/andrzejabramov/ToDoList_Django/blob/master/screens/views.png)
+13. Запустим сервер и посмотрим, что получилось :
 ```commandline
 python3 manage.py runserver
 ```
