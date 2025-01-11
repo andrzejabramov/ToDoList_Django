@@ -31,7 +31,13 @@ python3 manage.py startapp todo_list
 ![project](https://github.com/andrzejabramov/ToDoList_Django/blob/master/screens/project_urls.png)
 7. Создадим модель Бд, будем использовать SQLite3:
 ![model_bd](https://github.com/andrzejabramov/ToDoList_Django/blob/master/screens/model_bd.png)
-8. Запустим сервер и посмотрим, что получилось :
+8. Применим миграцию:
+```
+python3 manage.py migrate
+python3 makemigrations
+```
+
+9. Запустим сервер и посмотрим, что получилось :
 ```commandline
 python3 manage.py runserver
 ```
