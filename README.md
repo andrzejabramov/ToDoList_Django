@@ -23,4 +23,5 @@ cd todoproject
 ```commandline
 python3 manage.py startapp todo_list
 ```
-
+4. Добавляем наименование приложения в список Install_app файла settings.py:
+![install_app](https://github.com/andrzejabramov/ToDoList_Django/blob/master/screens/install_app.png)
