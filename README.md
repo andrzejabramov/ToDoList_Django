@@ -29,3 +29,9 @@ python3 manage.py startapp todo_list
 ![app_url](https://github.com/andrzejabramov/ToDoList_Django/blob/master/screens/app_url.png)
 6. В корневом файле (проекта) urls.py сошлемся на файл urls.py приложения:
 ![project](https://github.com/andrzejabramov/ToDoList_Django/blob/master/screens/project_urls.png)
+7. Создадим модель Бд, будем использовать SQLite3:
+![model_bd](https://github.com/andrzejabramov/ToDoList_Django/blob/master/screens/model_bd.png)
+8. Запустим сервер и посмотрим, что получилось:
+```commandline
+python3 manage.py runserver
+```
